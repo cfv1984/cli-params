@@ -1,0 +1,19 @@
+{
+  "name": "cli-params",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "source": "src/index.js", 
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "3.15.0",
+    "microbundle": "0.13.3"
+  },
+  "author": {
+    "email": "cfvergara+npmjs@gmail.com",
+    "name": "Carlos Vergara"
+  },
+  "scripts": {
+    "test": "ava",
+    "build": "microbundle"
+  }
+}

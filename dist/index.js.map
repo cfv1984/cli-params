@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/index.js"],"sourcesContent":["const params = require('./params');\r\n\r\nmodule.exports = {\r\n  params\r\n};\r\n"],"names":["params","require","module","exports"],"mappings":"AAAA,IAAMA,EAASC,QAAQ,YAEvBC,OAAOC,QAAU,CACfH,OAAAA"}

@@ -1,0 +1,2 @@
+tests/**/* export-ignore
+ava.config export-ignore
