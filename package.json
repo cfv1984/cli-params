@@ -12,7 +12,6 @@
     "email": "cfvergara+npmjs@gmail.com",
     "name": "Carlos Vergara"
   },
-  "type": "module",
   "scripts": {
     "test": "ava",
     "build": "microbundle --no-compress"
