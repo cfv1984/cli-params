@@ -3,7 +3,10 @@ const FULL_FLAG = {
     return str.startsWith("--");
   },
   parse(str, _) {
-    const [name, value] = str.slice(2).split("=");
+    let [name, value] = str.slice(2).split("=");
+    if(!value){
+      value === true;
+    }
     return { name, value };
   },
 };
