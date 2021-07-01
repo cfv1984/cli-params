@@ -1,7 +1,7 @@
 {
   "name": "pasamanos",
   "description": "A CLI parameter parser that makes 0 decisions about how you structure your project",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "dist/index.js",
   "source": "src/index.js",
   "license": "MIT",
