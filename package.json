@@ -1,5 +1,5 @@
 {
-  "name": "cli-params",
+  "name": "pasamanos",
   "version": "0.0.2",
   "main": "dist/index.js",
   "source": "src/index.js",
