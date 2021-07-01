@@ -1,7 +1,7 @@
 {
   "name": "pasamanos",
   "description": "A CLI parameter parser that makes 0 decisions about how you structure your project",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "dist/index.js",
   "source": "src/index.js",
   "license": "MIT",
@@ -15,7 +15,10 @@
     "name": "Carlos Vergara"
   },
   "keywords": [
-    "cli","arguments","params","cli params parser"
+    "cli",
+    "arguments",
+    "params",
+    "cli params parser"
   ],
   "bugs": {
     "url": "https://github.com/cfv1984/cli-params/issues"
