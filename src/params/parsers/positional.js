@@ -1,5 +1,5 @@
-const FULL_FLAG = require("./full_flag");
-const SHORT_FLAG = require("./short_flag");
+import FULL_FLAG from "./full_flag";
+import SHORT_FLAG from "./short_flag";
 
 const POSITIONAL = {
   canParse(str) {
@@ -12,4 +12,4 @@ const POSITIONAL = {
   },
 };
 
-module.exports = POSITIONAL;
+export default POSITIONAL;;

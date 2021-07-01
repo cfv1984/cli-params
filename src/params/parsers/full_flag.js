@@ -11,4 +11,4 @@ const FULL_FLAG = {
   },
 };
 
-module.exports = FULL_FLAG;
+export default FULL_FLAG;

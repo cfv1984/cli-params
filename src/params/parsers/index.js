@@ -1,9 +1,3 @@
-const FULL_FLAG = require("./full_flag");
-const SHORT_FLAG = require("./short_flag");
-const POSITIONAL = require("./positional");
-
-module.exports = {
-  FULL_FLAG,
-  SHORT_FLAG,
-  POSITIONAL,
-};
+export { default as FULL_FLAG } from "./full_flag";
+export { default as SHORT_FLAG } from "./short_flag";
+export { default as POSITIONAL } from "./positional";

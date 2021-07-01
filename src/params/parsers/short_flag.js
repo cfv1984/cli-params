@@ -1,4 +1,4 @@
-const FULL_FLAG = require("./full_flag");
+import FULL_FLAG from "./full_flag";
 
 const SHORT_FLAG = {
   canParse(str) {
@@ -6,15 +6,15 @@ const SHORT_FLAG = {
   },
   parse(str, _) {
     let [name, value] = str.slice(1).split("=");
-    if (typeof(value) === 'undefined') {
+    if (typeof value === "undefined") {
       value = true;
     }
     if (["true", "false"].includes(value)) {
-      value = (value === "true");
+      value = value === "true";
     }
 
     return { name, value };
   },
 };
 
-module.exports = SHORT_FLAG;
+export default SHORT_FLAG;

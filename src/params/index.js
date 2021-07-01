@@ -1,5 +1,5 @@
-const isProcessArgv = require("./isProcessArgv");
-const { SHORT_FLAG, FULL_FLAG, POSITIONAL } = require("./parsers");
+import isProcessArgv from "./isProcessArgv";
+import { SHORT_FLAG, FULL_FLAG, POSITIONAL } from "./parsers";
 
 function params(args = process.argv, aliases = {}) {
   if (!args instanceof Array) {
@@ -41,7 +41,7 @@ function params(args = process.argv, aliases = {}) {
   Object.keys(aliases).forEach((newKey) => {
     const oldKey = aliases[newKey];
     const value = params[oldKey];
-    if (typeof value === 'undefined') {
+    if (typeof value === "undefined") {
       return;
     }
     delete params[oldKey];
@@ -54,4 +54,4 @@ function params(args = process.argv, aliases = {}) {
   return params;
 }
 
-module.exports = params;
+export default params;

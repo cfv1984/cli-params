@@ -140,5 +140,5 @@ function params(args, aliases) {
   return params;
 }
 
-export { params };
-//# sourceMappingURL=index.esm.js.map
+exports.params = params;
+//# sourceMappingURL=index.cjs.map
