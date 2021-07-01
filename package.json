@@ -1,5 +1,6 @@
 {
   "name": "pasamanos",
+  "description": "A CLI parameter parser that makes 0 decisions about how you structure your project",
   "version": "0.0.8",
   "main": "dist/index.js",
   "source": "src/index.js",
@@ -13,8 +14,14 @@
     "email": "cfvergara+npmjs@gmail.com",
     "name": "Carlos Vergara"
   },
+  "keywords": [
+    "cli","arguments","params","cli params parser"
+  ],
+  "bugs": {
+    "url": "https://github.com/cfv1984/cli-params/issues"
+  },
   "scripts": {
     "test": "ava",
-    "build": "microbundle --no-compress"
+    "build": "microbundle"
   }
 }
