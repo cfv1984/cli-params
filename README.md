@@ -39,10 +39,12 @@ const { params } = require('pasamanos');
 <details>
     <summary>I get some variant of Error [ERR_REQUIRE_ESM] when using your module</summary>
 
-    Due to my _judicious_ use of <a href="https://www.npmjs.com/package/microbundle">microbundle</a> in an attempt to allow people to both import and require the library, I unlocked a whole rat king worth of compatibility issues with ESM and CommonJS style modules. 
-
-    If you get this exception require pasamanos/dist/index.cjs instead of just 'pasamanos'. 
-
+    Turns out using `microbundle` to ensure compatibility between ESM and CommonJS and such
+    uncovered a whole rat king worth of flags and version compatibility issues. 
+    Sorry about that.
+    If you encounter this error, your best choice is requiring `pasamanos/dist/index.cjs`
+    instead of the default `pasamanos`. 
+    
 </details>
 
 <details>
